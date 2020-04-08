@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>æä¸æåç­éååé¡</template>
+  </category>
+  
+<category>
+<pattern>æ©å®</pattern>
+<template><srai>HI</srai></template>
+</category>
+
+<category>
+<pattern>åå®</pattern>
+<template><srai>HI</srai></template>
+</category>
+
+<category>
+<pattern>æå®</pattern>
+<template><srai>HI</srai></template>
+</category>
+
+<category>
+<pattern>HI</pattern>
+<template>å¨ï¼ä½ å¥½å</template>
+</category>
+
+<category>
+<pattern>è«å <set>fruit</set> æ¯ä¸ç¨®æ°´æå</pattern>
+<template>æ¯ï¼<star/>æ¯æææçæ°´æï¼å®ç<map name="fruitlike"><star/></map></template>
+</category>
+  
+<category>
+<pattern>æåå¯ä»¥èèåå¡å</pattern>
+<template>ä½ åæ­¡<set name="topic">åå¡</set>å?</template>
+</category>
+
+<topic name="åå¡">
+<category>
+<pattern>æåæ­¡åå®æç¥</pattern>
+<template>æä¹å¾åæ­¡</template>
+</category>
+<category>
+<pattern>å¯æ¯å®æé»è¦</pattern>
+<template>ä¹è¨±ä½ å¯ä»¥è©¦èåè¶</template>
+</category>
+</topic>
+
+</aiml>
